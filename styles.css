@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #019267;
+
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  margin-top: 100px;
+  /* max-width: 700px; */
+  color: #00c897;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 100px 100px auto;
+}
+
+.container h1 {
+  color: white;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  margin-top: 15px;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+
+.playerBoard,
+.computerBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.icon {
+  font-size: 3.5rem;
+  color: #ffd365;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #fdffa9;
+  border-radius: 20px;
+}
+
+.playerChoice,
+.computerChoice {
+  font-size: 2rem;
+}
+.Player,
+.Computer {
+  color: white;
+  font-size: 30px;
+}
+
+.Player,
+.Computer {
+  color: #00c897;
+}
+
+span.scoreNumber {
+  color: #ffd365;
+  /* color: white; */
+}
+
+.none {
+  display: none;
+}
+
+.result {
+  color: #ffd365;
+}
